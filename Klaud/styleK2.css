@@ -1,0 +1,137 @@
+/*  +++  ADICIONANDO FONTE  +++ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+ /*  +++  ADICIONANDO FONTE  +++ */
+
+
+
+
+  /*  +++  APLICANADO FONTE  +++ */
+*{
+
+    font-family: 'Inter', sans-serif;
+
+}
+  /*  +++  APLICANADO FONTE  +++ */
+
+
+
+
+body{
+
+    display:inline-block;
+
+
+}
+
+/*  +++  Estilo retangulo pro trás de tudo  +++  */
+.principal{
+    background-color: rgb(255, 255, 255);
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*  +++  Estilo retangulo pro trás de tudo  +++  */
+
+
+
+
+
+/*  +++  Titulo Crie seu grupo  +++  */
+.crieGrupo{
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 550px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.csg{
+    display: flex;
+    font-family: 'InterExtraBold', sans-serif;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+/*  +++  Titulo Crie seu grupo  +++  */
+
+
+
+/* +++ Nome do grupo +++ */
+.nDG{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nomedG{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #787878;
+    width: 450px;
+    height: 35px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#nomedoGrupo{
+    color: #545454;
+    margin-top: 23px;
+    font-size: 16px;
+    margin-left: -275px;
+
+}
+/* +++ Nome do grupo +++ */
+
+
+
+.confbut{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+
+}
+
+.confirmarB{
+
+    width: 175px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #9B9B9B;
+    border: #9B9B9B;
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+    border-radius: 16px;
+
+
+}
+
+#confirmarinb{
+    margin-left: 100px ;
+}
+#voltarinb{
+    margin-right: 100px ;
+    
+}
+
+button:hover{
+
+    transform: scale(1.1);
+    background-color: #727272 ;
+
+}
