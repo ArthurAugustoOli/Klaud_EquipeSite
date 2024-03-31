@@ -15,3 +15,5 @@ photo.addEventListener('click', () => {
 let nomeGrupo = document.getElementById('inputNomeGrupo');
 
 let lemaGrupo = document.getElementById('inputLemaDoGrupo');
+
+let nomeIntegrantes = document.getElementById('inputNI');
