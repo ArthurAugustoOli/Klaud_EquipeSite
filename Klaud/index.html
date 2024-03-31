@@ -10,36 +10,43 @@
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleK.css">
-    <script src="myscripts.js"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KlaudProject</title>
 </head>
 <body>
+
     <div class="principal">
 
         <form action="" class="crieGrupo">
 
-        <h1>Crie seu grupo</h1>
-         
-            <p id="nomedoGrupo">Nome do grupo</p>
-          <input type="text" class="nomedG" required/>
+          <div class="csg">   
+            <h1>Crie seu grupo</h1>
+         </div>
 
-          <p id="lemadoGrupo">Lema do grupo</p>
-          <input type="text" class="nomedG" required/>
-           
+         <div class="nDG">
+            <label id="nomedoGrupo">Nome dos integrantes</label>
+          <input type="text" class="nomedG" id="inputNomeGrupo" required/>
+          </div>
+
+
+          <div class="lDG">
+          <label id="lemadoGrupo">Lema do grupo</label>
+          <input type="text" class="nomedG" id="inputLemaDoGrupo" required/>
+           </div>
           
-          <label for="addImagemButt" id="addI">Adicione uma imagem</label>
-          <input type="file" class="addImagemButt" required/>
+           <div class="aIB" id="addIMB">
+            <label for="addI"  class="clickImg" id="desADDIMG">Adicione uma imagem</label>
+          <input type="file" class="addImagemButt clickImg"  accept="image/*" required/>
+          <div for="addImagemButt" id="addI"><img src="image.png" alt="Selecione uma imagem" id="imgSelect"></div>    
+           </div>
 
 
+           <div class="confbut">
+          <button id="confirmarB" >
+            <strong>CONFIRMAR</strong>
           </button>
-
-          <button id="confirmarB">
-
-            CONFIRMAR
-
-          </button>
-
+          </div>
           
 
 
@@ -49,6 +56,9 @@
     
 
     </div>
-       
+
+
+    <script src="myscripts.js"></script>
+
 </body>
 </html>
