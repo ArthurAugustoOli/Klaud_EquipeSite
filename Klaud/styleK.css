@@ -1,18 +1,18 @@
 
- /* ADICIONANDO FONTE */
+ /*  +++  ADICIONANDO FONTE  +++ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
- /* ADICIONANDO FONTE */
+ /*  +++  ADICIONANDO FONTE  +++ */
 
 
 
 
-  /* APLICANADO FONTE */
+  /*  +++  APLICANADO FONTE  +++ */
 *{
 
     font-family: 'Inter', sans-serif;
 
 }
- /* ADICIONANDO FONTE */
+  /*  +++  APLICANADO FONTE  +++ */
 
 
 
@@ -24,9 +24,8 @@ body{
 
 }
 
-
+/*  +++  Estilo retangulo pro trás de tudo  +++  */
 .principal{
-
     background-color: rgb(255, 255, 255);
     width: 98vw;
     height: 97vh;
@@ -34,12 +33,15 @@ body{
     justify-content: center;
     align-items: center;
 
-
 }
+/*  +++  Estilo retangulo pro trás de tudo  +++  */
 
+
+
+
+
+/*  +++  Titulo Crie seu grupo  +++  */
 .crieGrupo{
-
-
     background-color: rgb(255, 255, 255);
     width: 650px;
     height: 550px;
@@ -48,90 +50,136 @@ body{
     display: inline-block;
     justify-content: center;
 
-
 }
 
-h1{
+.csg{
+    display: flex;
     font-family: 'InterExtraBold', sans-serif;
-    font-size: 40px;
-    margin-left: 180px;
-    margin-top: 15px;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
 
 }
 
-.nomedG{
+/*  +++  Titulo Crie seu grupo  +++  */
 
-    display: block;
+
+
+/* +++ Nome do grupo +++ */
+.nDG{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nomedG{
+    display: flex;
     background-color: rgb(255, 255, 255);
     border: 1px solid #787878;
     width: 450px;
     height: 35px;
     border-radius: 8px;
-    margin-top: -15px;
-    margin-left: 95px;
-    margin-bottom: 50px;
-    
-
+    justify-content: space-around;
+    align-items: center;
 
 }
-
 #nomedoGrupo{
-
-
-        font-display:unset;
-        color: #545454;
-        font-size: 18px;
-        margin-left: 95px;
-        margin-top: -15px;
+    color: #545454;
+    margin-top: 23px;
+    font-size: 16px;
+    margin-left: -275px;
 
 }
+/* +++ Nome do grupo +++ */
+
+
+
+/* +++ Lema do grupo +++ */
+.lDG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
 
 #lemadoGrupo{
-
-
-    font-display:unset;
     color: #545454;
-    font-size: 18px;
-    margin-left: 95px;
-    margin-top: -15px;
+    font-size: 16px;
+    margin-left: -325px;
+    margin-top: 30px ;
 
 }
 
+.aIB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* +++ Lema do grupo +++ */
+
+
+
+/* +++ Adicione imagem +++ */
 #addI{
-
-
-    font-display:unset;
-    color: #545454;
+    display: flex;
+    background-color: #E6E6E6;
     font-size: 18px;
-    margin-left: 225px;
-    margin-top: -15px;
-
-}
-
-.addImagemButt{
-
-
     height: 100px;
-    width: 100px;
-    margin-left: -95px;
-  margin-top: 10px;
-  padding: 0em 20em 0em;
+    width: 125px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    
 }
+#desADDIMG{
+    color: #545454;
+    font-size: 16px;
+    margin-top: 10px;
 
-button:hover{
+}
+#imgSelect{
+    width: 30%;
+    height: 30%;
+    background-color: #E6E6E6;
+    
+}
+.addImagemButt{
+    display: none;
+    
+}   
 
+#addI:hover{
     transform: scale(1.1);
-    background-color: #E6E6E6 ;
+    background-color: #d3d3d3;
+    
+}
+/* +++ Adicione imagem +++ */
+
+
+
+/* +++ CONFIRMAR +++ */
+.confbut{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
 
 }
 
 #confirmarB{
 
-    margin-left: 220px;
-    margin-top: 25px;
-    width: 200px;
-    height: 70px;
-    font-size: 25px;
+    width: 225px;
+    height: 50px;
+    font-size: 20px;
     color: white;
     background-color: #9B9B9B;
     border: #9B9B9B;
@@ -141,4 +189,15 @@ button:hover{
 
 
 }
+
+button:hover{
+
+    transform: scale(1.1);
+    background-color: #727272 ;
+
+}
+
+
+
+/* +++ CONFIRMAR +++ */
 
