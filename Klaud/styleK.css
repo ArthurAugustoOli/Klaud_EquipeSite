@@ -1,0 +1,144 @@
+
+ /* ADICIONANDO FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+ /* ADICIONANDO FONTE */
+
+
+
+
+  /* APLICANADO FONTE */
+*{
+
+    font-family: 'Inter', sans-serif;
+
+}
+ /* ADICIONANDO FONTE */
+
+
+
+
+body{
+
+    display:inline-block;
+
+
+}
+
+
+.principal{
+
+    background-color: rgb(255, 255, 255);
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.crieGrupo{
+
+
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 550px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: inline-block;
+    justify-content: center;
+
+
+}
+
+h1{
+    font-family: 'InterExtraBold', sans-serif;
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: 15px;
+
+}
+
+.nomedG{
+
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #787878;
+    width: 450px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: -15px;
+    margin-left: 95px;
+    margin-bottom: 50px;
+    
+
+
+}
+
+#nomedoGrupo{
+
+
+        font-display:unset;
+        color: #545454;
+        font-size: 18px;
+        margin-left: 95px;
+        margin-top: -15px;
+
+}
+
+#lemadoGrupo{
+
+
+    font-display:unset;
+    color: #545454;
+    font-size: 18px;
+    margin-left: 95px;
+    margin-top: -15px;
+
+}
+
+#addI{
+
+
+    font-display:unset;
+    color: #545454;
+    font-size: 18px;
+    margin-left: 225px;
+    margin-top: -15px;
+
+}
+
+.addImagemButt{
+
+
+    height: 100px;
+    width: 100px;
+    margin-left: -95px;
+  margin-top: 10px;
+  padding: 0em 20em 0em;
+}
+
+button:hover{
+
+    transform: scale(1.1);
+    background-color: #E6E6E6 ;
+
+}
+
+#confirmarB{
+
+    margin-left: 220px;
+    margin-top: 25px;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    background-color: #9B9B9B;
+    border: #9B9B9B;
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+    border-radius: 16px;
+
+
+}
+
